@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #00376E;
+}
+
+
+
+
+/* navbar started started */
+
+.header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.container-fluid{
+    max-width:100%;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > div{
+    /* border: 1px solid green; */
+}
+
+.logo{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.nav a{
+    display: inline-block;
+     font-size: 17px;
+     text-decoration: none;
+     padding: 10px 20px;
+     color: #00376E;
+     border-radius: 5px;
+}
+
+.nav a:first-child{
+    background-color: #4CB5AB;
+    color: white;
+}
+
+.nav a:last-child{
+    border-left:1px dotted black;
+}
+.nav a:hover{
+    background-color: #4CB5AB;
+    color: white;
+
+}
+
+
+
+
+
+/* navbar started started */
+
+
+
+/* slider started started */
+
+
+.container-fluid{
+    border: 1px solid red;
+    padding:5px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.slider{
+    border: 1px solid green ;
+    padding: 5px;
+    width: 400%;
+    display: flex;
+
+}
+
+.slide{
+    height: 500px;
+    width: 100%;
+    border: 5px solid blue;
+}
+
+.bg1{
+    background-color: pink;
+}
+
+
+.bg2{
+    background-color: gainsboro;
+}
+
+.bg3{
+    background-color: orange;
+}
+
+.bg4{
+    background-color: lightblue;
+}
+
+
+
+.btn{
+    border: 1px solid blue;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(-70px);
+}
+
+.btn:hover{
+    border-top:3px solid orange;
+}
+.btn a{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+ 
+}
+
+.slidedata{
+    border: 1px solid red;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-evenly;
+}
+
+.slidedata a{
+    padding: 20px 20px;
+    border:1px solid white;
+    font-size:30px;
+    color: white;
+}
+.slidedata a:hover{
+    background-color: white;
+    color: black;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.features > div{
+    width:33.33%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+
+.featuresCard{
+    border: 1px solid gray;
+    height: 100%;
+}
+
+/* slider started ended */
